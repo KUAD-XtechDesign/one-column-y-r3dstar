@@ -7,5 +7,7 @@ $(function(){
     $(".close_button").on("click",function(){
         $(this).parent(".content").slideUp();
 
+    $('.single-item').slick();
+
     })
 });
