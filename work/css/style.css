@@ -1,16 +1,16 @@
-@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP&display=swap');
-
-body{
-    line-height: 2;
-    font-family: 'Noto Sans JP',sans-serif;
-}
-
+/*ダークモード*/
 @media (prefers-color-scheme: dark) {
     body {
       background-color: #000;
       color: #fff;
       transition: 5s;
     }
+}
+
+.warapper{
+    max-width: 1000px;
+    background-color: #fff;
+    margin: 0 auto;
 }
 
 img{
