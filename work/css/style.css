@@ -14,7 +14,6 @@
 
 img{
     max-width: 100%;
-    max-height: 100%;
 }
 
 .img_button img{
@@ -43,4 +42,24 @@ img{
 .img_button{
     transition: 0.3s all;
     cursor: pointer;
+}
+
+.txt_img{
+    display: flex;
+    max-width: 850px;
+    margin: 0 auto;
+    min-height: 80vh;
+}
+
+.img{
+    width: 20%;
+}
+
+.txt{
+    width: 80%;
+    padding: 5px;
+}
+
+#img01{
+    margin-top: 100px;
 }
