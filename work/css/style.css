@@ -5,12 +5,11 @@
       color: #fff;
       transition: 2s;
     }
-    .wrapper{
-        max-width: 1000px;
-        margin: 0 auto;
 }
 
-
+.wrapper{
+    max-width: 1000px;
+    margin: 0 auto;
 }
 
 img{
