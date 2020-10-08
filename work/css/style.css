@@ -13,3 +13,34 @@ body{
     }
 }
 
+img{
+    max-width: 100%;
+}
+
+.img_button img{
+    display: block;
+}
+
+.img_button:hover{
+    opacity: 0.5;
+}
+
+.content{
+    display: none;
+    padding: 30px;
+}
+
+.close_button{
+    display: inline-block;
+    padding: 13px;
+    margin: 10px 0;
+    border-radius: 5px;
+    background-color: wheat;
+    color: white;
+    cursor: pointer;
+}
+
+.img_button{
+    transition: 0.3s all;
+    cursor: pointer;
+}
